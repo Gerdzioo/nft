@@ -1,0 +1,84 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+#card {
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    width: 18%;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px 10px;
+    padding: 1%;
+}
+
+.border {
+    border-radius: 10px 10px;
+    margin-top: 2%;
+    width: 90%;
+    height: 50%;
+    position: relative;
+}
+
+.name {
+    margin: 4%;
+    font-weight: bold;
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+}
+
+.text {
+    color: hsl(215, 51%, 70%);
+    margin: 4%;
+}
+
+.money {
+    color: hsl(178, 100%, 50%);
+    float: left;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.time {
+    color: hsl(215, 51%, 70%);
+    float: right;
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.line {
+    width: 100%;
+    height: 1.8px;
+    background-color: hsl(215, 32%, 27%);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    float: left;
+}
+
+.avatar {
+    border-radius: 100px 100px;
+    float: left;
+    border: 1px solid white;
+}
+
+.text-bottom {
+    color: hsl(215, 51%, 70%);
+    margin-top: 1.5%;
+    margin-left: 5%;
+    float: left;
+}
